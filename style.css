@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+    
+    
 
 body{
     background-image: url(./images/background_image\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     color: white;
+    
 }
 .container{
     background-color: rgba(0, 0, 0, 0.3);
@@ -26,7 +33,42 @@ header{
 span{
     color: red;
 }
-.description{
+#description{
     font-family: "Sorts Mill Goudy", serif;
     font-weight: 700;
+}
+.survey_form{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+
+#name,#age,#email,#content,#feedback{
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+}
+.input-box{
+    margin-top: 20px;
+}
+textarea{
+    resize: none;
+    height: 91.46px;
+}
+.form-submit{
+    text-align: center;
+    margin-top: 16px;  
+}
+.form-button{
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.form-button:hover{
+color: red;
+background-color: white;
 }
